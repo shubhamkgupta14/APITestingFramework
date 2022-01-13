@@ -1,0 +1,11 @@
+pojo\response\Book.class
+pojo\request\AuthRequest.class
+pojo\response\UserAccount.class
+pojo\request\ISBN.class
+pojo\request\AddBookRequest.class
+service\Route.class
+pojo\response\Token.class
+pojo\response\Books.class
+service\EndPoints.class
+constants\Constants.class
+pojo\request\RemoveBookRequest.class

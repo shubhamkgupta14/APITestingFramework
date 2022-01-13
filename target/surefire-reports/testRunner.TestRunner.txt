@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.747 sec <<< FAILURE!
+the Authorized user can Add and Remove a book.(E2E TEst)  Time elapsed: 4.605 sec  <<< FAILURE!
+java.lang.AssertionError: 
+i_am_an_authorized_user - java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html'.
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepDef.stepDefinitions.i_am_an_authorized_user(stepDefinitions.java:53)
+	at ?.I am an authorized user(file:///C:/Users/shubham_k/eclipse-workspace/APITestingFramework/src/test/resources/features/E2Etest.feature:4)
+
